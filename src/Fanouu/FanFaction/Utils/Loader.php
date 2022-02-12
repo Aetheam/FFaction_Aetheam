@@ -9,6 +9,8 @@
 
 namespace Fanouu\FanFaction\Utils;
 
+use Fanouu\FanFaction\Utils\Provider;
+
 class Loader{
 
     public static function loadCommands(){
@@ -17,6 +19,17 @@ class Loader{
 
         foreach($Cmd as $cmd => $command){
             
+        }
+    }
+
+    public static function loadTables(){
+        $array = [
+            "CREATE TABLE IF NOT EXISTS factions (`leader` TEXT, `players` TEXT, `allies` TEXT, `claims` TEXT, `power` INT, `home` TEXT)",
+            "CREATE TABLE IF NOT EXISTS player (`username` TEXT, `faction`)"
+        ];
+
+        foreach($array as $index => $value){
+            Provider::query($value);
         }
     }
 
