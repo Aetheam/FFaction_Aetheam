@@ -1,0 +1,16 @@
+# _____  _____             _    _
+#|  ___||  ___|__ _   ___ | |_ (_)  ___   _ __
+#| |_   | |_  / _` | / __|| __|| | / _ \ | '_ \
+#|  _|  |  _|| (_| || (__ | |_ | || (_) || | | |
+#|_|    |_|   \__,_| \___| \__||_| \___/ |_| |_|
+#This plugin was made by Fan. All right reserved
+#Thanks. Google traduction
+
+error_isInFaction: "§eError§f. You already is in faction, type §e/f leave§f or §e/f disband §f!"
+error_min_faction_name_lenght: "§eError§f. The faction name is too §eshort§f !"
+error_max_faction_name_lenght: "§eError§f. The faction name is too §elong§f !"
+error_faction_exists: "§eError§f. A faction with §ethis§f name exists !"
+succes_faction_created: "§eSucces§f. Your faction with name §e{faction} §fhas been succesfully created !"
+error_not_leader: "§eError§f. You are not the faction leader, §eonly§f the faction leader can execute the command !"
+error_not_in_faction: "§eError§f. You are not part of a faction !"
+succes_faction_deleted: "§eSucces§f. Your faction with name §e{faction} §fhas been succesfully deleted !"

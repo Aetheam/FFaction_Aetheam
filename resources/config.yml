@@ -1,0 +1,29 @@
+# _____  _____             _    _               
+#|  ___||  ___|__ _   ___ | |_ (_)  ___   _ __  
+#| |_   | |_  / _` | / __|| __|| | / _ \ | '_ \ 
+#|  _|  |  _|| (_| || (__ | |_ | || (_) || | | |
+#|_|    |_|   \__,_| \___| \__||_| \___/ |_| |_|
+#This plugin was made by Fan. All right reserved
+
+#Provider's: SQLite, MySQL
+Provider: SQLite
+
+MySQL:
+  adress: "0.0.0.0"
+  username: "none"
+  password: "none"
+  database: "none"
+
+Factions:
+  max-players: 20
+  max-ally: 3
+  min-faction-name: 3
+  max-faction-name: 20
+  Powers:
+    kill-power: +1
+    death-power: -1
+  Claims:
+    max-claim: 5
+    blacklist-worlds: []
+  Home:
+    blacklist-worlds: []
